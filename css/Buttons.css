@@ -13,6 +13,7 @@
 }
 
 .Buttons__changeQuotation:hover {
+    color: #222;
     cursor: pointer;
     background-color: #ffba66;
     border: 5px solid #ff8c00;
@@ -33,6 +34,7 @@
 }
 
 .Buttons__changeColorShadow:hover {
+    color: #222;
     cursor: pointer;
     background-color: hsl(33, 100%, 70%);
     border: 5px solid #ff8c00;

@@ -3,7 +3,7 @@
     font-size: 18px;
     margin-top: 40px;
     max-width: 100%;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     text-align: center;
     webkit-box-shadow: 10px 10px 48px -14px #ff8c00;
     -moz-box-shadow: 10px 10px 48px -14px #ff8c00;
@@ -15,9 +15,20 @@
     font-size: 18px;
     margin-top: 40px;
     max-width: 100%;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     text-align: center;
     webkit-box-shadow: 10px 10px 48px -14px crimson;
     -moz-box-shadow: 10px 10px 48px -14px crimson;
     box-shadow: 10px 10px 48px -14px crimson;
+}
+.footer_link{
+    color:white;
+    text-decoration: none;
+}
+.footer_link:visited{
+    color:white;
+}
+.footer_link:hover{
+    color:#ff8c00;
+
 }

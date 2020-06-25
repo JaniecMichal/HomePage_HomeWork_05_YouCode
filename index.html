@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michał Janiec - witaj w moim Imperium</title>
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/MainHeader.css" rel="stylesheet">
+    <link href="css/MainNav.css" rel="stylesheet">
+    <link href="css/SubHeader.css" rel="stylesheet">
+    <link href="css/Content.css" rel="stylesheet">
+    <link href="css/Table.css" rel="stylesheet">
+    <link href="css/Footer.css" rel="stylesheet">
+    <link href="css/Buttons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <script defer src="js/mainScript.js"></script>
+    <script defer src="js/timer.js"></script>
+</head>
+
+<body class="body">
+
+    <header class="mainHeader">
+
+        <h1 class="mainHeader__logo" id="logo">IMPERIUM KODU - pierwsze kroki we Frontendzie!</h1>
+        <div class="mainHeader__timer" id="timer">06.60.2020 00:00:00</div>
+
+    </header>
+
+    <nav class="mainMenu">
+        <ul>
+            <li class="mainMenu__menuOption">
+                <a href="#logo" class="mainMenu_link mainMenu_link--first">Strona Główna</a>
+            </li>
+            <li class="mainMenu__menuOption">
+                <a href="#me" class="mainMenu_link">O mnie</a>
+            </li>
+            <li class="mainMenu__menuOption">
+                <a href="#interests" class="mainMenu_link">Zainteresowania</a>
+            </li>
+            <li class="mainMenu__menuOption">
+                <a href="#contact" class="mainMenu_link">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="SubHeader">
+        <section>
+            <h3 class="SubHeader__quotText">"To, co czynimy za życia, odbija się echem w wieczności." - Maximus Decimus
+                Meridius
+            </h3>
+            <button class="Buttons__changeQuotation">Ustaw cytat na dziś</button>
+        </section>
+    </div>
+
+
+
+    <main>
+
+        <section class="content">
+
+            <h2 id="me">Cześć i chwała Imperium!</h2>
+            <p>Witam na stronie przygotowanej w ramach pracy domowej, w trzecim tygodniu kursu frontend w YouCode.
+                Na stronie chciałbym zaprezentować umiejętności, które udało mi się nabyć po ostatnich lekcjach.
+                Postaram
+                też powiedzieć coś więcej o sobie, swoich zainteresowaniach i może jakiś ciekawostkach. Mam nadzieję, że
+                spodoba Ci się tutaj i strona będzie cieszyć się pozytywnym odbiorem naszej kursowej społczeności. W
+                przypadku wykrycia nieprawidłowości w funkcjonowaniu stronki to proszę o kontakt.</p>
+
+            <h3>O mnie</h3>
+            <p>Mam na imię Michał, jednak wśród przyjaciół jestem znany pod tytyłem <b>Imperator</b>. Na codzień oprócz
+                rządzenia swoim Imperium Giszowiec pracuje sobie w niedużej firmie specjalizaującej się w sprzedaży
+                wysokiej
+                jakości urządzeń elektrycznych. Obecnie mam 25 lat i od dłuższego czasu zastanawiam się nad zmianą
+                swojego
+                życia zawodowego. W obecnej pracy brakuje mi wyzwań, a praca w branży IT na pewno wiele takich wyzwań mi
+                dostarczy. W przyszłości na pewno chciałbym mieć swoją firmę i pracować na siebie ale zobaczymy co
+                przyniesie czas. Jak narazie w planach mam doskonalenie się w technologiach frontendowych tak aby wejść
+                do
+                pierwszej pracy i nabrać rozpędu na tej ścieżce kariery.</p>
+
+            <p>W życiu prywatnym również bardzo dużo się dzieje, ponieważ w tym roku na świat przyszedł mój syn Dominik
+                i
+                praktycznie większość mojego wolnego czasu poświęcam Jemu. Nieraz ciężko było znaleźć chwilę na kodzenie
+                pośród codziennych obowiązków jednakże postanowiłem wziąć się za siebie i wybrałem kurs YouCode.</p>
+
+
+        </section>
+
+        <button class="Buttons__changeColorShadow">Przełącz na inny kolor cienia</button>
+
+        <section class="content">
+
+
+            <h3 id="interests">Zainteresowania</h3>
+            <p>Długo się zastanawiałem o czym tutaj powiedzieć ponieważ interesuję się bardzo wieloma rzeczami, ale
+                chyba
+                nie mam jednej takiej pasji, której oddawałbym się bez reszty. Od zawsze lubiłem piłkę nożną, ale bardzo
+                lubię też inne sporty jak bieganie, czy sztuki walki. Jedną z moich pasji jest muzyka. Nie wyobrażam
+                sobie
+                dnia bez posłuchania choćby kilku swoich ulubionych utworów. Ten mój mały rozgardiasz w
+                zainteresowaniach
+                przekłada się również na świat muzyki ponieważ nie mam jednego stałego gatunku, którego się wiernie
+                trzymam.
+                Uwielbiam dobre, mocne, metalowe brzmienia ale lubię też posłuchać spokojnej i poważniejszej muzyki
+                filmowej. Poniżej w tabeli przedstawie małe zestawienie ulubionych utworów z podziałem na rodzaj muzyki.
+            </p>
+
+            <div class="TableContainer">
+                <table class="TableContainer__Table">
+                    <caption class="TableContainer__tableCaption">Moja ulubiona muzyka</caption>
+                    <tr class="TableContainer__tRow">
+                        <th scope="col" class="TableContainer__tHeader">Rodzaj muzyki</th>
+                        <th scope="col" class="TableContainer__tHeader">Nazwa wykonawcy</th>
+                        <th scope="col" class="TableContainer__tHeader">Tytuł utworu</th>
+                        <th scope="col" class="TableContainer__tHeader">Link do kawałka na yt</th>
+                    </tr>
+                    <tr class="TableContainer__tRow">
+                        <th scope="row" class="TableContainer__tHeader">Muzyka Filmowa</th>
+                        <td class="TableContainer__tCell">Vangelis</td>
+                        <td class="TableContainer__tCell">Titans</td>
+                        <td class="TableContainer__tCell"><a href="https://www.youtube.com/watch?v=OankX_bMnus"
+                                target="_blank" rel="noreferrer noopener" class="TableContainer__songLink"><i
+                                    class="icon-note"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="TableContainer__tRow">
+                        <th scope="row" class="TableContainer__tHeader">Power metal</th>
+                        <td class="TableContainer__tCell">Sabaton</td>
+                        <td class="TableContainer__tCell">Sparta</td>
+                        <td class="TableContainer__tCell"><a href="https://www.youtube.com/watch?v=p1SlBlB5pzU"
+                                target="_blank" rel="noreferrer noopener" class="TableContainer__songLink"><i
+                                    class="icon-note"></i></a></td>
+                    </tr>
+                    <tr class="TableContainer__tRow">
+                        <th scope="row" class="TableContainer__tHeader">Rock</th>
+                        <td class="TableContainer__tCell">Horytnica</td>
+                        <td class="TableContainer__tCell">W marszu i w boju</td>
+                        <td class="TableContainer__tCell"><a href="https://www.youtube.com/watch?v=JhC94fIJmQI"
+                                target="_blank" rel="noreferrer noopener" class="TableContainer__songLink"><i
+                                    class="icon-note"></i></a></td>
+                    </tr>
+                    <tr class="TableContainer__tRow">
+                        <th scope="row" class="TableContainer__tHeader">Lata 80'</th>
+                        <td class="TableContainer__tCell">Fancy</td>
+                        <td class="TableContainer__tCell">Flames of love</td>
+                        <td class="TableContainer__tCell"><a href="https://www.youtube.com/watch?v=8C35sdjc_cw"
+                                target="_blank" rel="noreferrer noopener" class="TableContainer__songLink"><i
+                                    class="icon-note"></i></a></td>
+                    </tr>
+                    <tr class="TableContainer__tRow">
+                        <th scope="row" class="TableContainer__tHeader">Muzyka autorska</th>
+                        <td class="TableContainer__tCell">Clamavi de Profundis</td>
+                        <td class="TableContainer__tCell">Roads Go Ever On</td>
+                        <td class="TableContainer__tCell"><a href="https://www.youtube.com/watch?v=9B6dsfGazyI"
+                                target="_blank" rel="noreferrer noopener" class="TableContainer__songLink"><i
+                                    class="icon-note"></i></a></td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="content">
+            <h2 id="contact">Kontakt</h2>
+            <img src="images/me.jpg" alt="To ja" class="content__myPhoto">
+            <p>Hej, jeśli znalazłeś coś co działa nieprawidłowo na tej stronie np. responsywność, interakcje po
+                kliknięciu w
+                przycisku lub cokolwiek innego to zapraszam do kontaktu. Najlepiej przez Slacka ale dla ćwiczeń poniżej
+                podaje
+                swój mail:</p>
+            <a href="michal.janiec95@gmail.com" target="_blank" rel="noreferrer noopener"
+                class="content__contactAddress">imperator@mail.pl</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        Wszelkie prawa zastrzeżone! &copy; Created by Imperator. Lepiej nie zadzierać z Imperium :D
+    </footer>
+
+
+
+</body>
+
+</html>

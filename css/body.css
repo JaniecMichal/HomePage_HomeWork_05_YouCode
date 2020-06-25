@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("/images/hexabump.png");
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}

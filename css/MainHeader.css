@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.mainHeader {
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.mainHeader__logo {
+    color: #ff8c00;
+}
+
+.mainHeader__timer {
+    text-align: left;
+}

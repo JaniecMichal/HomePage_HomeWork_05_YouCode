@@ -1,0 +1,53 @@
+.TableContainer {
+    overflow-x: auto;
+}
+
+.TableContainer__Table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+.TableContainer__tableCaption {
+    font-weight: 800;
+}
+
+.TableContainer__tHeader {
+    border: 2px solid #f4e995;
+    padding: 20px;
+    background-color: #ff8c00;
+    text-transform: uppercase;
+}
+
+.TableContainer__tHeader:hover {
+    background-color: hsl(33, 100%, 65%);
+}
+
+.TableContainer__tCell {
+    border: 2px solid #f4e995;
+    padding: 20px;
+}
+
+.TableContainer__tRow:nth-child(even) {
+    background-color: hsl(0, 0%, 7%);
+}
+
+.TableContainer__tRow:hover {
+    background-color: #2e2e2e;
+}
+
+.icon-note {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.TableContainer__songLink {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.TableContainer__songLink:hover {
+    color: #ff8c00;
+    margin: 0px;
+}

@@ -1,0 +1,39 @@
+.Buttons__changeQuotation {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #ff8c00;
+    border: 5px solid #ffba66;
+    color: #d6f49d;
+    padding: 10px;  
+}
+
+.Buttons__changeQuotation:active {
+    outline: none;
+}
+
+.Buttons__changeQuotation:hover {
+    cursor: pointer;
+    background-color: #ffba66;
+    border: 5px solid #ff8c00;
+}
+
+.Buttons__changeColorShadow {
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #ff8c00;
+    border: 5px solid hsl(33, 100%, 70%);
+    color: #d6f49d;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Buttons__changeColorShadow:hover {
+    cursor: pointer;
+    background-color: hsl(33, 100%, 70%);
+    border: 5px solid #ff8c00;
+}

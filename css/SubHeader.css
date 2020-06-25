@@ -1,0 +1,15 @@
+.SubHeader {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    color: #ead637;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.SubHeader__quoText {
+    font-size: 12px;
+}

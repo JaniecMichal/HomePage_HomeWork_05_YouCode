@@ -1,0 +1,43 @@
+.content {
+    max-width: 1000px;
+    background-color: #242424;
+    border: 2px solid #ff8c00;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    webkit-box-shadow: 10px 10px 48px -14px #ff8c00;
+    -moz-box-shadow: 10px 10px 48px -14px #ff8c00;
+    box-shadow: 10px 10px 48px -14px #ff8c00;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.newContent {
+    max-width: 1000px;
+    background-color: #242424;
+    border: 2px solid #ff8c00;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    webkit-box-shadow: 10px 10px 48px -14px crimson;
+    -moz-box-shadow: 10px 10px 48px -14px crimson;
+    box-shadow: 10px 10px 48px -14px crimson;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.content__contactAddress {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.content__contactAddress:hover {
+    color: #ff8c00;
+    margin: 0px;
+}
+
+.content__myPhoto {
+    max-width: 65%;
+    margin-left: 18%;
+}

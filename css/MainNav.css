@@ -1,0 +1,34 @@
+.mainMenu {
+    max-width: 100%;
+    background-color: #ff8c00;
+    padding: 10px;
+    text-align: center;
+}
+
+.mainMenu__menuOption {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.mainMenu_link {
+    text-decoration: none;
+    color: #ffedc2;
+    margin-left: 50px; 
+    font-weight: 800;
+}
+
+.mainMenu_link:hover {
+    color: #c7c7c7;
+    border: 2px solid #c7c7c7;
+    margin-left: 40px;
+    padding: 3px;
+}
+
+.mainMenu_link--first {
+    margin-left: 0px;
+}
+
+.mainMenu_link--first:hover {
+    margin-left: -10px;
+}

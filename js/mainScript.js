@@ -5,10 +5,6 @@ let quotText = document.querySelector(".SubHeader__quotText");
 let text = changeQuot.innerText;
 
 console.log("Witajcie developerzy w Imperium Kodu");
-console.log(day);
-console.log(changeQuot);
-console.log(quotText);
-console.log(text);
 
 
 changeQuot.addEventListener("click", () => {

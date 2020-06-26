@@ -21,14 +21,14 @@
     -moz-box-shadow: 10px 10px 48px -14px crimson;
     box-shadow: 10px 10px 48px -14px crimson;
 }
-.footer_link{
+.footer__link{
     color:white;
     text-decoration: none;
 }
-.footer_link:visited{
+.footer__link:visited{
     color:white;
 }
-.footer_link:hover{
+.footer__link:hover{
     color:#ff8c00;
 
 }

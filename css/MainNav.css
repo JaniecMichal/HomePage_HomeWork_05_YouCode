@@ -1,12 +1,19 @@
-.mainMenu {
+.mainNav {
     max-width: 100%;
     background-color: #ff8c00;
     padding: 10px;
-    text-align: center;
 }
 
-.mainMenu__menuOption {
-    display: inline-block;
+.mainNav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+
+.mainNav__menuOption {
+
     text-transform: uppercase;
     list-style-type: none;
 }
@@ -14,21 +21,15 @@
 .mainMenu_link {
     text-decoration: none;
     color: #ffedc2;
-    margin-left: 50px; 
     font-weight: 800;
+    margin:0 25px;
 }
 
 .mainMenu_link:hover {
     color: #222;
     border: 2px solid #222;
-    margin-left: 40px;
     padding: 3px;
-}
-
-.mainMenu_link--first {
-    margin-left: 0px;
-}
-
-.mainMenu_link--first:hover {
-    margin-left: -10px;
+    margin: 0 20px;
+ 
+    
 }

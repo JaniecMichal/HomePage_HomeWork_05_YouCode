@@ -1,5 +1,4 @@
 {
-    
     const Welcome = () => {
         console.log("Witajcie developerzy w Imperium Kodu");
     };
@@ -16,10 +15,17 @@
     };
 
     const SetDayQuotation = () => {
-      
+        const defaultButtonText = document.querySelector(".js-defaultButtonText");
         const quotText = document.querySelector(".SubHeader__quotText");
-        if (changeQuotbutton.innerText === "USTAW CYTAT NA DZIŚ") quotText.innerHTML = returnDayQuotation();
-        else quotText.innerHTML = backToMainQuotation();
+       
+        if (defaultButtonText.innerHTML === "USTAW CYTAT NA DZIŚ") {
+            quotText.innerHTML = returnDayQuotation();
+            defaultButtonText.innerHTML = `WRÓĆ DO MOTTA STRONY`;
+        }
+        else {
+            quotText.innerHTML = backToMainQuotation();
+            defaultButtonText.innerHTML = `USTAW CYTAT NA DZIŚ`;
+        }
     };
 
     const returnDayQuotation = () => {
@@ -44,12 +50,10 @@
     const backToMainQuotation = () => {
         return `"To, co czynimy za życia, odbija się echem w wieczności." - Maximus Decimus Meridius`;
     };
-
-
+    
     const init = () => {
-        const changeQuotbutton = document.querySelector(".Buttons__changeQuotation");
+        const changeQuotbutton = document.querySelector(".js-changeQuotButton");
         const changeShadowbutton = document.querySelector(".Buttons__changeColorShadow");
-        const textButton = changeQuotbutton.innerText
 
         Welcome();
 

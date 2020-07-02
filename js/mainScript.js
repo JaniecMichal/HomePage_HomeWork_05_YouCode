@@ -15,10 +15,12 @@
         footer.classList.toggle("newFooter");
     };
 
-    const SetDayQuotation = () => {
+    function SetDayQuotation(e) {
       
         const quotText = document.querySelector(".SubHeader__quotText");
-        if (changeQuotbutton.innerText === "USTAW CYTAT NA DZIŚ") quotText.innerHTML = returnDayQuotation();
+        console.log(e);
+        var buttonId = e.srcElement.id;
+        if (buttonId === "quotButton") quotText.innerHTML = returnDayQuotation();
         else quotText.innerHTML = backToMainQuotation();
     };
 
